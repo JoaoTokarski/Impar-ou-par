@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: linear-gradient(to top right, #ff9a8b, #ff6a88, #ff2d91); /* Gradiente bonito */
+    background-image: linear-gradient(to top right, rgb(0, 102, 255), #0066ff, #00b7ff); /* Gradiente bonito */
 }
 
 .container {
@@ -54,7 +54,7 @@ input {
 }
 
 input:focus {
-    border-color: #ff2d91;
+    border-color: #0026ff;
     background-color: #fff7f9; /* Fundo suave quando focado */
     outline: none;
 }
