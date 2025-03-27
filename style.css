@@ -61,7 +61,7 @@ input:focus {
 
 button {
     padding: 12px 20px;
-    background-color: #ff2d91; /* Cor vibrante para o botão */
+    background-color: #2db2ff; /* Cor vibrante para o botão */
     color: white;
     border: none;
     border-radius: 8px;
@@ -71,12 +71,12 @@ button {
 }
 
 button:hover {
-    background-color: #ff68a3;
+    background-color: #0044ff;
     transform: translateY(-3px); /* Efeito de botão ao passar o mouse */
 }
 
 button:active {
-    background-color: #ff2d91; /* Cor de fundo quando o botão é clicado */
+    background-color: #0026ff; /* Cor de fundo quando o botão é clicado */
     transform: translateY(1px);
 }
 
