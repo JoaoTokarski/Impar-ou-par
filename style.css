@@ -54,7 +54,7 @@ input {
 }
 
 input:focus {
-    border-color: #0026ff;
+    border-color: #7700ff;
     background-color: #fff7f9; /* Fundo suave quando focado */
     outline: none;
 }
@@ -71,12 +71,12 @@ button {
 }
 
 button:hover {
-    background-color: #0044ff;
+    background-color: #a200ff;
     transform: translateY(-3px); /* Efeito de botão ao passar o mouse */
 }
 
 button:active {
-    background-color: #0026ff; /* Cor de fundo quando o botão é clicado */
+    background-color: #5900ff; /* Cor de fundo quando o botão é clicado */
     transform: translateY(1px);
 }
 
