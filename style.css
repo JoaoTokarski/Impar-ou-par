@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: linear-gradient(to top right, rgb(0, 102, 255), #0066ff, #00b7ff); /* Gradiente bonito */
+    background-image: linear-gradient(to top right, #ff9a8b, #ff6a88, #ff2d91); /* Gradiente bonito */
 }
 
 .container {
@@ -54,14 +54,14 @@ input {
 }
 
 input:focus {
-    border-color: #7700ff;
+    border-color: #ff2d91;
     background-color: #fff7f9; /* Fundo suave quando focado */
     outline: none;
 }
 
 button {
     padding: 12px 20px;
-    background-color: #0011ff; /* Cor vibrante para o botão */
+    background-color: #ff2d91; /* Cor vibrante para o botão */
     color: white;
     border: none;
     border-radius: 8px;
@@ -71,12 +71,12 @@ button {
 }
 
 button:hover {
-    background-color: #a200ff;
+    background-color: #ff68a3;
     transform: translateY(-3px); /* Efeito de botão ao passar o mouse */
 }
 
 button:active {
-    background-color: #5900ff; /* Cor de fundo quando o botão é clicado */
+    background-color: #ff2d91; /* Cor de fundo quando o botão é clicado */
     transform: translateY(1px);
 }
 
